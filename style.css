@@ -1,0 +1,29 @@
+#game{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+#bim-bam{
+    width: 19vw;
+    height: 18vw;
+    display: flex;
+    flex-wrap: wrap;
+    z-index: 500000000;
+}
+#bim-bam div{
+    width: 6vw;
+    height: 6vw;
+    border: 0.1vw dashed black;
+    background-color: white;
+    pointer-events: all;
+}
+.pidor{
+    background-color: black;
+    color: aliceblue;
+    width: 5vw;
+    height: 3vw;
+    border-radius: 1vw;
+    border: 0.1vw solid black;
+}
